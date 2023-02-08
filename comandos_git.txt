@@ -7,3 +7,19 @@ _____________________________
 > git pull origin main          --> descargada la informacion te mueve al ultimo commit
 > git commit -am "mensaje"      --> guarda de manera local los elementos del repo
 > git push origin main          --> empuja todos los commits al servidor (repo)
+
+
+
+
+Brances: Son una rama distinta al main para que 2 desarrolladores no trabajen en la misma linea y haya problemas
+_____________________________
+
+// Esta linea tiene toda la misma historia pero fuera del main
+
+                      Dev1
+                     0---0  
+Main                /    
+0----0----0----0---/\        <--- Brances
+                     \
+                      0---0
+                      Dev2
