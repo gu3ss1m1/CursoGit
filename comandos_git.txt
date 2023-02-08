@@ -1,0 +1,9 @@
+Comandos basicos de github
+_____________________________
+
+
+> git clone <repo>              --> clonas el repositorio de manera local 
+> git fetch                     --> descarga la informacion del repositorio ya clonado
+> git pull origin main          --> descargada la informacion te mueve al ultimo commit
+> git commit -am "mensaje"      --> guarda de manera local los elementos del repo
+> git push origin main          --> empuja todos los commits al servidor (repo)
