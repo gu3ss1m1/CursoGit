@@ -25,3 +25,5 @@ Main                /
 
 > git branch <nombre>           --> crea una nueva linea o Brance 
 > git checkout <nombre>         --> cambia a la linea que se selecciona 
+> git checkout -B <nombre>      --> hace ambos procesos en una sola linea
+> git checkout main             --> vuelve al branch main
