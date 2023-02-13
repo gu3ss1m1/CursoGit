@@ -1,7 +1,6 @@
 Comandos basicos de github
 _____________________________
 
-
 > git clone <repo>              --> clonas el repositorio de manera local 
 > git fetch                     --> descarga la informacion del repositorio ya clonado
 > git pull origin main          --> descargada la informacion te mueve al ultimo commit
@@ -23,3 +22,8 @@ Main                /
                      \
                       0---0
                       Dev2
+
+> git branch <nombre>           --> crea una nueva linea o Brance 
+> git checkout <nombre>         --> cambia a la linea que se selecciona 
+> git checkout -B <nombre>      --> hace ambos procesos en una sola linea
+> git checkout main             --> vuelve al branch main
